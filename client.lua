@@ -163,6 +163,30 @@ local locationss = {
       z = 25.58,
       name = "Storage Facility "
     },
+    {
+      x = 4449.66,
+      y = -4464.09,
+      z = 4.33,
+      name = "Storage Facility "
+    },
+    {
+      x = 4451.47,
+      y = -4467.93,
+      z = 4.33,
+      name = "Storage Facility "
+    },
+    {
+      x = 4452.77,
+      y = -4471.65,
+      z = 4.33,
+      name = "Storage Facility "
+    },
+    {
+      x = 4447.98,
+      y = -4460.56,
+      z = 4.33,
+      name = "Storage Facility "
+    },
   }
 
 local blipinfo = {
@@ -195,6 +219,11 @@ local blipinfo = {
     x = 919.6,
     y = -1264.61,
     z = 25.55,
+  },
+  {
+    x = 4453.17,
+    y = -4466.6,
+    z = 4.33,
   }
 }
 
@@ -256,10 +285,10 @@ Citizen.CreateThread(function()
     SetBlipSprite(info.blip, 50)
     SetBlipDisplay(info.blip, 4)
     SetBlipColour(info.blip, 81)
-    SetBlipScale(info.blip, 0.9)
+    SetBlipScale(info, 0.9)
     SetBlipAsShortRange(info.blip, true)
   BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString(info.blip,'Storage Facility')
+    AddTextComponentString('Storage Facility')
     EndTextCommandSetBlipName(info.blip)
   end
 end)
