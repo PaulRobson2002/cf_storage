@@ -259,7 +259,7 @@ Citizen.CreateThread(function()
     SetBlipScale(info.blip, 0.9)
     SetBlipAsShortRange(info.blip, true)
   BeginTextCommandSetBlipName("STRING")
-    AddTextComponentString('Storage Facility')
+    AddTextComponentString(info.blip,'Storage Facility')
     EndTextCommandSetBlipName(info.blip)
   end
 end)
