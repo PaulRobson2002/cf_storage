@@ -163,30 +163,7 @@ local locationss = {
       z = 25.58,
       name = "Storage Facility "
     },
-    {
-      x = 4449.66,
-      y = -4464.09,
-      z = 4.33,
-      name = "Storage Facility "
-    },
-    {
-      x = 4451.47,
-      y = -4467.93,
-      z = 4.33,
-      name = "Storage Facility "
-    },
-    {
-      x = 4452.77,
-      y = -4471.65,
-      z = 4.33,
-      name = "Storage Facility "
-    },
-    {
-      x = 4447.98,
-      y = -4460.56,
-      z = 4.33,
-      name = "Storage Facility "
-    },
+
   }
 
 local blipinfo = {
@@ -220,11 +197,6 @@ local blipinfo = {
     y = -1264.61,
     z = 25.55,
   },
-  {
-    x = 4453.17,
-    y = -4466.6,
-    z = 4.33,
-  }
 }
 
 
